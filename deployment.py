@@ -7,7 +7,7 @@ import streamlit as st
 #Data Collection and Pre-Processing
 
 # loading the data from the csv file to apandas dataframe
-movies_data = pd.read_csv('D:/python/ML model/movie recommendation model/movies.csv')
+movies_data = pd.read_csv('movies.csv')
 # st.write(movies_data)
 # st.dataframe(movies_data)
 # st.table(movies_data)
